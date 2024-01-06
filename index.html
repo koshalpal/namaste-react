@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>namaste react</title>
+</head>
+<body>
+    <h1>hello react</h1>
+    <div id="root"></div>
+    <div id="react"></div>
+</body>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+const hello = document.createElement("h1");
+hello.innerHTML = 'hello this is javascript';
+const  kk = document.getElementById("root");
+kk.appendChild(hello);  
+
+</script>
+<script src="./App.js"></script>
+</html>
